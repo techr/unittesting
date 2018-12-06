@@ -6,6 +6,7 @@ extern "C" {
 #endif
 
 void module_one();
+int module_one_calls_method_in_module_two(int val1);
 
 #ifdef __cplusplus
 }
